@@ -3,12 +3,16 @@
 
 
 # Step 1: Create Directory Structure
+```
 echo "Creating directory structure..."
 mkdir -p data/input data/processed models results scripts
+```
 
 # Step 2: Add Placeholder Files
+```
 echo "Setting up input data files..."
 touch data/input/balanced_ddi_labels.parquet data/input/ddi_labels.csv data/input/drug_targets.csv
+```
 
 echo "Setting up processed data files..."
 touch data/processed/drug_embeddings.pt data/processed/drug_pair_features.h5 \
