@@ -1,6 +1,6 @@
-#!/bin/bash
 
-echo "Initializing Drug-Drug Interaction Prediction Project..."
+# Drug Drug Interaction Prediction
+
 
 # Step 1: Create Directory Structure
 echo "Creating directory structure..."
@@ -105,6 +105,4 @@ pip install -r requirements.txt
 - Neural Network Model: \`results/nn_model.pth\`
 - PR Curve: \`results/neural_network_pr_curve.png\`
 
-EOF
 
-echo "Project setup completed."
