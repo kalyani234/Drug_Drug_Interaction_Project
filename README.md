@@ -47,7 +47,8 @@ This project focuses on predicting drug-drug interactions (DDIs) using machine l
 
 ## **Project Structure**
 
-\`\`\`plaintext
+
+```plaintext
 ├── data
 │   ├── input
 │   │   ├── balanced_ddi_labels.parquet
@@ -76,7 +77,8 @@ This project focuses on predicting drug-drug interactions (DDIs) using machine l
 │   ├── generate_protein_embeddings.py
 │   ├── map_drug_targets_to_protein_ids.py
 │   └── update_keys_protein_embeddings.py
-\`\`\`
+```
+
 
 ## Steps to Reproduce
 
