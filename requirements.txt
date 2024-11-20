@@ -1,0 +1,10 @@
+pandas
+torch
+transformers
+biopython
+scikit-learn
+matplotlib
+numpy
+h5py
+joblib
+seaborn
